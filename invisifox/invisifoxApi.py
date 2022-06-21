@@ -2,8 +2,7 @@ import requests
 import random
 from time import sleep
 
-class invisiFox():
-
+class InvisiFox:
 	def __init__(self,apiKey=None,proxyUsername=None,proxyPassword=None,attempts=20,logs=False):
 		self.apiString = "https://api.invisifox.com/"
 		self.apiKey = apiKey

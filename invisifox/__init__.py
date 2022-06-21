@@ -1,1 +1,1 @@
-from invisifox import invisifox
+from invisifox import invisifoxApi
