@@ -5,3 +5,11 @@ Python 3 package for easy integration with the API of invisifox captcha solving 
 This package can be installed with Pip:
 
 ```pip install invisifox```
+
+Sample code:
+
+```
+from invisifox import InvisiFox
+
+invisifoxSolver = InvisiFox(apiKey='YOUR API KEY')
+```
