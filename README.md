@@ -8,7 +8,7 @@ This package can be installed with Pip:
 
 Sample code:
 
-```
+```python 
 from invisifox import InvisiFox
 
 invisifoxSolver = InvisiFox(apiKey='YOUR API KEY')
