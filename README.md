@@ -30,9 +30,9 @@ When making a request must pass a number of paramaters. Some key paramters are r
 Solving a HCaptcha usually takes 25 to 120 seconds depending on network traffic so please be patient. You will be automatically charged for each request from your balance at a rate of US$ 0.6 / 1000 Captcha Solutions.
 
 ```python
-from invisiFox import invisiFox
+from invisifox import InvisiFox
 
-bot = invisiFox()
+bot = InvisiFox()
 bot.apiKey = 'YOUR API KEY'
 
 solution = bot.solveHCaptcha('b2b02ab5-7dae-4d6f-830e-7b55634c888b','https://discord.com','http://username:password@host:port')
