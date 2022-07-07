@@ -63,9 +63,9 @@ You can easily generate proxies using our API. You can pass none, any, or all of
 **count (optional):** the number of proxies to be returned in an array. Defaults to 1.<br />
 
 ```python
-from invisiFox import invisiFox
+from invisifox import InvisiFox
 
-bot = invisiFox()
+bot = InvisiFox()
 bot.proxyUsername = 'username'
 bot.proxyPassword = 'password'
 
