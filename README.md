@@ -1,7 +1,7 @@
 # invisiFox Python API
 
-Welcome to the invisiFox Python API!
-[Node.js API](--NODE API LINK HERE--) | [Rest API](https://docs.invisifox.com/rest-api)
+Welcome to the invisiFox Python API!<br />
+[Node.js API](--NODE API LINK HERE--) | [Rest API](https://www.npmjs.com/package/invisifox)
 
 In order to use the invisiFox API you will need an API key. You can get your API key by creating an account and adding credit on [invisifox.com](https://invisifox.com).
 
@@ -19,13 +19,13 @@ When making a request must pass a number of paramaters. Some key paramters are r
 
 
 **token:** your invisifox api token<br />
-**siteKey:** the HCaptcha sitekey from the website you are using. This is usually found in HTTP requests or in the HCaptcha iFrame
-**pageurl:** the url on which you find the HCaptcha. Usually the full url is not required, for example all the url parameters may not be necassary
-**proxy:** the proxy address you want to use to solve the HCaptcha in format username:password@host:port or host:port
-**rqdata (optional):** for enterprise HCaptcha websites, this value is usually found in HTTP requests.
-**useragent (optional):** the useragent of the device you are using or emulating
-**cookies (optional):** the browser cookies
-**invisible (optional):** default set to false, set to true for invisible HCaptchas
+**siteKey:** the HCaptcha sitekey from the website you are using. This is usually found in HTTP requests or in the HCaptcha iFrame<br />
+**pageurl:** the url on which you find the HCaptcha. Usually the full url is not required, for example all the url parameters may not be necassary<br />
+**proxy:** the proxy address you want to use to solve the HCaptcha in format username:password@host:port or host:port<br />
+**rqdata (optional):** for enterprise HCaptcha websites, this value is usually found in HTTP requests.<br />
+**useragent (optional):** the useragent of the device you are using or emulating<br />
+**cookies (optional):** the browser cookies<br />
+**invisible (optional):** default set to false, set to true for invisible HCaptchas<br />
 
 Solving a HCaptcha usually takes 25 to 120 seconds depending on network traffic so please be patient. You will be automatically charged for each request from your balance at a rate of US$ 0.6 / 1000 Captcha Solutions.
 
@@ -57,10 +57,10 @@ Sticky IP proxies are designed to be easy to dynamically generate, as well as to
 
 You can easily generate proxies using our API. You can pass none, any, or all of the following paramaters.
 
-**country (optional):** the country where you want the proxy from. Defaults to random country.
-**proxyType (optional):** the type of proxy between "random" and "sticky". Defaults to "random".
-**protocol (optional):** the type of proxy between "http" and "https". Defaults to "http".
-**count (optional):** the number of proxies to be returned in an array. Defaults to 1.
+**country (optional):** the country where you want the proxy from. Defaults to random country.<br />
+**proxyType (optional):** the type of proxy between "random" and "sticky". Defaults to "random".<br />
+**protocol (optional):** the type of proxy between "http" and "https". Defaults to "http".<br />
+**count (optional):** the number of proxies to be returned in an array. Defaults to 1.<br />
 
 ```python
 from invisiFox import invisiFox
