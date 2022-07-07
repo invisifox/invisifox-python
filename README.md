@@ -18,8 +18,7 @@ $ pip install invisiFox
 When making a request must pass a number of paramaters. Some key paramters are required and others are not. The list below details the available paramaters. Those marked optional are not required, all the others are required.
 
 
-**token:** your invisifox api token
-
+**token:** your invisifox api token<br />
 **siteKey:** the HCaptcha sitekey from the website you are using. This is usually found in HTTP requests or in the HCaptcha iFrame
 **pageurl:** the url on which you find the HCaptcha. Usually the full url is not required, for example all the url parameters may not be necassary
 **proxy:** the proxy address you want to use to solve the HCaptcha in format username:password@host:port or host:port
