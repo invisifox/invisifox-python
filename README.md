@@ -1,7 +1,7 @@
 # invisiFox Python API
 
 Welcome to the invisiFox Python API!<br />
-[Node.js API](--NODE API LINK HERE--) | [Rest API](https://www.npmjs.com/package/invisifox)
+[Node.js API](https://www.npmjs.com/package/invisifox) | [Rest API](https://docs.invisifox.com/rest-api)
 
 In order to use the invisiFox API you will need an API key. You can get your API key by creating an account and adding credit on [invisifox.com](https://invisifox.com).
 
@@ -10,7 +10,7 @@ In order to use the invisiFox API you will need an API key. You can get your API
 To install the Python API and get started you can simply pip install invisiFox into your project.
 
 ```sh
-$ pip install invisiFox
+$ pip install invisifox
 ```
 
 ## HCaptcha Solver
